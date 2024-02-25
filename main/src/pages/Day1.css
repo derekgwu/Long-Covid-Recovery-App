@@ -1,0 +1,49 @@
+.start-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .word-container {
+    margin-top: 20px;
+  }
+  
+  .current-word {
+    font-size: 24px;
+  }
+  
+  .game-over {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f44336; /* Red color for game over message */
+  }
+
+/* Add this to your Day1.css or create a new CSS file */
+
+.word-selection-btn {
+    background-color: rgb(11, 247, 223);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .correct {
+    background-color: green;
+    color: white;
+  }
+  
+  .incorrect {
+    background-color: red;
+    color: white;
+  }
+  
+
+  /* App.css */
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+} 

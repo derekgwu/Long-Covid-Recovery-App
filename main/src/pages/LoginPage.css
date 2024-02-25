@@ -1,0 +1,60 @@
+/* LoginForm.css */
+.custom-input {
+    background-color: #e0e0e0; /* Set the background color for the input */
+    padding: 5px; /* Add padding for better aesthetics */
+    border: 1px solid #ccc; /* Add a border for clarity */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .custom-input:focus {
+    background-color: #fff; /* Change background color on focus */
+    border: 1px solid #4CAF50; /* Change border color on focus */
+    outline: none; /* Remove the default focus outline */
+  }
+
+.login_button{
+  color:white;
+}
+
+.login_bubble{
+  width:100%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+
+}
+
+.form{
+  background-color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.custom-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px; /* Optional: Set a maximum width for the form */
+  margin: auto; /* Optional: Center the form on the page */
+}
+
+.custom-input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.login_button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.login_button:hover {
+  background-color: #45a049;
+}
+.error-message{
+  background-color: rgb(215, 68, 68);
+  padding: 10%;
+  border-radius: 5%;
+}
